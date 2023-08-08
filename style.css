@@ -6,3 +6,41 @@
     box-sizing: border-box;
     font-family: 'Lora', serif;
 }
+
+body{
+    display: flex;
+    padding: 0 10px;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background: #d1c21b;
+}
+
+.wrapper{
+    width: 720px;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.wrapper header{
+    font-size: 22px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-bottom: 1px solid #bfbfbf;
+}
+
+.wrapper form{
+    margin: 35px 30px;
+}
+
+form .ficha-area{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+    justify-content: space-between;
+}
+
+.ficha-area .area{
+    height: 50px;
+    width: calc(100% / 2 - 13px);
+}
